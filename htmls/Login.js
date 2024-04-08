@@ -39,7 +39,7 @@ function authenticateUser(username, password) {
             localStorage.setItem("loggedInUser", loggedInUser);
             alert("Login successful!");
             // Redirect to dashboard.html or perform other actions
-            window.location.href = "dashboard.html";
+            window.location.href = "Dashboard.html";
         } else {
             alert("Invalid username or password.");
         }
